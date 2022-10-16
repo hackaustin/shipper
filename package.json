@@ -1,13 +1,11 @@
 {
-  "name": "@hackaustin/shipper",
-  "version": "1.0.0",
+  "name": "ha-shipper",
+  "version": "1.0.2",
   "description": "shipper",
   "main": "cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node cli.js"
+  "bin": {
+    "ship": "./cli.js"
   },
-  "bin": "cli.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hackaustin/shipper.git"
