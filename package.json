@@ -1,0 +1,36 @@
+{
+  "name": "@hackaustin/shipper",
+  "version": "1.0.0",
+  "description": "shipper",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node cli.js"
+  },
+  "bin": "cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackaustin/shipper.git"
+  },
+  "keywords": [
+    "afs"
+  ],
+  "author": "suhas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackaustin/shipper/issues"
+  },
+  "homepage": "https://github.com/hackaustin/shipper#readme",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.2",
+    "@vercel/node": "^2.5.24",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "node-fetch": "^3.2.10",
+    "prisma": "^4.4.0",
+    "prompt": "^1.3.0"
+  },
+  "type": "module"
+}
